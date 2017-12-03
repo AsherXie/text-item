@@ -1,0 +1,14 @@
+.recovery {
+    width: 100%;
+    height: 140px;
+    background: url("../images/user_data_bg.jpg") center center;
+}
+.recovery p{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    line-height: 140px;
+}
+.recovery p strong{
+    font-size: 45px;
+}

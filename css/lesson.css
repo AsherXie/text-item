@@ -1,0 +1,96 @@
+section:nth-of-type(3) {
+    height: 858px;
+    background: #f5f5f5;
+    color: black !important;
+    position: relative;
+}
+
+section:nth-of-type(3)>h1 {
+    width: 100%;
+    margin-left: 0;
+    font-size: 50px;
+    color: black;
+    text-align: center;
+    position: static;
+    padding: 150px;
+}
+
+section:nth-of-type(3) .squeezebox {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 360px;
+    height: 350px;
+}
+
+section:nth-of-type(3) .small {
+
+    border: 1px solid #616161;
+    float: left;
+
+}
+
+section:nth-of-type(3) .active {
+    overflow: hidden;
+    border: 1px solid #4cae4c;
+    border-top: 2px solid #4cae4c;
+}
+
+section:nth-of-type(3) .active p {
+    width: 80%;
+    height: 90px;
+    margin: 0 auto;
+    line-height: 90px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #43bc60;
+    border-bottom: 2px solid #ccc;
+}
+
+section:nth-of-type(3) .active h4 {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+section:nth-of-type(3) .active span {
+    font-size: 14px;
+    color: #666666;
+}
+
+section:nth-of-type(3) .active ul {
+    margin-top: 50px;
+    padding-left: 30px;
+}
+
+section:nth-of-type(3) .active li {
+    margin-bottom: 50px;
+}
+
+section:nth-of-type(3) .small img {
+    width: 30px;
+}
+
+section:nth-of-type(3) .small {
+    text-align: center;
+    padding: 30px;
+    white-space:nowrap;
+}
+
+section:nth-of-type(3) .small p {
+    width: 2em;
+    font-size: 20px;
+    padding-bottom: 20px;
+    margin: 20px auto;
+    border-bottom: 2px solid #cccccc;
+    white-space:nowrap;
+}
+
+section:nth-of-type(3) .small ul li {
+    margin-top: 30px;
+    font-size: 14px;
+    white-space:nowrap;
+    /*overflow: hidden;*/
+}

@@ -1,0 +1,52 @@
+.link{
+    background-color: #393c40!important;
+    width: 100%;
+    height: 292px;
+    color: #cccccc!important;
+    overflow: hidden;
+}
+.link>ul{
+    width: 80%;
+    margin:60px auto;
+}
+.link>ul>li{
+    float: left;
+    margin-left: 120px!important;
+}
+
+.link>ul>li ul li{
+    margin-top: 20px;
+    color: #616161;
+    cursor: pointer;
+    /*transition: all 1s;*/
+}
+.link>ul>li ul li:hover{
+    color: #43bc60;
+}
+.friendship-link {
+    padding-top: 15px;
+    width: 100%;
+    height: 90px;
+    background-color: #393c40!important;
+    border-top:1px solid #4b4d50;
+}
+
+.friendship-link p{
+    text-indent: 19em;
+    color: #cccccc;
+}
+.friendship-link ul{
+    margin-left: 247px;
+    margin-top: 20px;
+}
+.friendship-link ul li{
+    float: left;
+    cursor: pointer;
+    margin-left: 20px;
+    color: #616161;
+    box-sizing: border-box;
+}
+
+.friendship-link ul li:hover{
+    color: #43bc60;
+}

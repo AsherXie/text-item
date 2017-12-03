@@ -1,0 +1,146 @@
+.loop {
+    position: relative;
+    width: 100%;
+    height: 708px;
+    overflow: hidden;
+}
+
+.loop h1 {
+    position: absolute;
+    margin-top: 40px;
+    color: black;
+    left: 50%;
+    margin-left: -6em;
+    font-size: 45px;
+    z-index: 998;
+}
+
+.loop .center_content{
+    width: 70%;
+    height: 80%;
+    box-shadow: 0 10px 100px -10px #cccccc;
+    position: absolute;
+    top: 110px;
+    left: 15%;
+    z-index: 998;
+    background: white;
+}
+
+.loop .background-img {
+    width: 300%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.loop .background-img li {
+    height: 100%;
+    width: 33.3%;
+    float: left;
+}
+.loop .background-img li:last-of-type{
+
+}
+
+.loop .background-img li:first-child {
+    background: url("../images/swiper_1.png") no-repeat center bottom;
+}
+.loop .background-img li:nth-of-type(2) {
+    background: url("../images/swiper_2.jpg") no-repeat center bottom;
+}
+.loop .background-img li:nth-of-type(3) {
+    background: url("../images/swiper_1.png") no-repeat center bottom;
+}
+
+.loop .left {
+    width: 60px;
+    height: 60px;
+    border: 3px solid #ccc;
+    border-radius: 50%;
+    line-height: 60px;
+    text-align: center;
+    color: #cccccc;
+    cursor: pointer;
+    position: absolute;
+    left: 60px;
+    top: 50%;
+    margin-top: -30px;
+    font-size: 40px;
+}
+
+.loop .right {
+    width: 60px;
+    height: 60px;
+    border: 3px solid #ccc;
+    border-radius: 50%;
+    line-height: 60px;
+    text-align: center;
+    color: #cccccc;
+    cursor: pointer;
+    position: absolute;
+    right: 60px;
+    top: 50%;
+    margin-top: -30px;
+    font-size: 40px;
+}
+.loop .center_content{
+    width: 70%;
+    height: 80%;
+    box-shadow: 0 10px 100px -10px #cccccc;
+    position: absolute;
+    top: 110px;
+    left: 15%;
+    z-index: 998;
+    background: white;
+    overflow: hidden;
+}
+
+.loop .center_content>ul{
+    position: absolute;
+    width: 200%;
+    height: 100%;
+}
+
+.loop .center_content>ul>li{
+    width: 50%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    padding-top: 100px;
+}
+.loop .center_content>ul>li img {
+    width: 60px;
+    margin-bottom: 30px;
+}
+.loop .center_content p{
+    font-size: 40px;
+}
+
+.loop .center_content>ul>li ul{
+    width: 80%;
+    height: 40%;
+    margin: 50px auto;
+    /*background: yellow;*/
+
+}
+.loop .center_content>ul>li ul li{
+    float: left;
+    height: 100%;
+    width: 33%;
+    text-align: center;
+}
+.loop .center_content>ul>li ul li span:first-of-type{
+    width: 60px;
+    height: 60px;
+    display: block;
+    border: 2px solid #cccccc;
+    border-radius:50%;
+    margin: 20px auto;
+}
+
+.loop .center_content>ul>li ul li span:nth-child(2){
+    font-size: 25px;
+    color: #616161;
+    /*margin-bottom: 30px;*/
+}
